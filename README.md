@@ -1,21 +1,29 @@
 Hello there! I use this account for personal projects but also for work. 
+I like building things from math projects to everyday software.
+
 At work, I'm an R&D engineer at [Heliax](https://heliax.dev/), currently, developing
 core components for [Anoma](https://anoma.net/)'s web4 systems in
 [Elixir](https://elixir-lang.org/) and [TypeScript](https://www.typescriptlang.org/).
 I also review [Solidity](https://www.soliditylang.org/) smart contracts as part of
-this. Previously, I worked with [Haskell](https://www.haskell.org/) and
-[Agda](https://agda.readthedocs.io/).
-I like building things here, from math projects to everyday software.
- 
-I played a lot with [Agda](https://agda.readthedocs.io/) in the past and now I'm trying Lean,
-I use Elixir and [Python](https://www.python.org/) for web apps projects. [Phoenix](https://www.phoenixframework.org/)
-is a big reason I use Elixir tbh, I never wanted to learn React JS hell.
+this gig. Previously, I worked with [Haskell](https://www.haskell.org/) and
+[Agda](https://agda.readthedocs.io/), but not anymore. 
+
+In my spare time, I'm learning some Lean, when I can ofc, and
+[Agda](https://agda.readthedocs.io/) for my HoTT constructions. 
+For AI-driven web apps projects, I use Elixir and [Phoenix](https://www.phoenixframework.org/),
+Phoenix is a big reason I use Elixir and stop using Python for this apps.
+And if you read/have tons of PDFs, I'm developing [PaperShelf](https://github.com/jonaprieto/papershelf), 
+a macOS PDF reader and library manager I wished I had years ago.
+
 
 <details>
-<summary>In the works</summary>
+<summary>More in the works (mostly in lean) </summary>
 
-To build [OATP](https://github.com/jonaprieto/oatp), 
-I had to develop some tooling first. You may find it useful too.
+I'm building [OATP](https://github.com/jonaprieto/oatp) based on my previous project
+[online-atps in Haskell](https://github.com/jonaprieto/oatp). OATP is written in Lean4 and
+offers a REPL and CLI to interact with automated theorem provers. It does TPTP parsing. It
+can run local and online provers, reproducible artifacts, diagnostics, and explicit trust boundaries.
+To built OATP I had to develop some tooling first. You may find it useful too.
 
 [Grip](https://github.com/jonaprieto/lean-grip) is an efficient graded
 byte-oriented parser-combinator library; the grade tracks consumption, so
@@ -139,9 +147,6 @@ before any of this. The level of supervision varies. That distinction stopped
 mattering to me.
 
 </details>
-
-Btw if you read/have tons of PDFs, [PaperShelf](https://github.com/jonaprieto/papershelf) is the macOS PDF reader
-and library manager for research papers I wished I had years ago.
 
 
 Notes and talks at [jonaprieto.github.io](https://jonaprieto.github.io/).
