@@ -5,31 +5,33 @@ At work, I'm an R&D engineer at [Heliax](https://heliax.dev/), currently, develo
 core components for [Anoma](https://anoma.net/)'s web4 systems in
 [Elixir](https://elixir-lang.org/) and [TypeScript](https://www.typescriptlang.org/).
 I also review [Solidity](https://www.soliditylang.org/) smart contracts as part of
-this gig. Previously, I worked with [Haskell](https://www.haskell.org/) and
-[Agda](https://agda.readthedocs.io/), but not anymore. 
+this gig. 
 
-In my spare time, I'm learning some Lean, when I can ofc, and
-[Agda](https://agda.readthedocs.io/) for my HoTT constructions. 
-For AI-driven web apps projects, I use Elixir and [Phoenix](https://www.phoenixframework.org/),
-Phoenix is a big reason I use Elixir and stop using Python for this apps.
-And if you read/have tons of PDFs, I'm developing [PaperShelf](https://github.com/jonaprieto/papershelf), 
-a macOS PDF reader and library manager I wished I had years ago.
+In my spare time, I'm learning [Lean](https://lean-lang.org/) and using
+[Agda](https://agda.readthedocs.io/) for my HoTT constructions.
+For AI-driven web apps, I use Elixir and [Phoenix](https://www.phoenixframework.org/).
+Phoenix is a big reason I switched from Python to Elixir for building apps.
+There's also [PaperShelf](https://github.com/jonaprieto/papershelf), the macOS PDF
+reader and library manager I wish I'd had years ago.
 
 
 <details>
-<summary>More in the works (mostly in lean) </summary>
-
-I'm building [OATP](https://github.com/jonaprieto/oatp) based on my previous project
-[online-atps in Haskell](https://github.com/jonaprieto/oatp). OATP is written in Lean4 and
-offers a REPL and CLI to interact with automated theorem provers. It does TPTP parsing. It
-can run local and online provers, reproducible artifacts, diagnostics, and explicit trust boundaries.
-To built OATP I had to develop some tooling first. You may find it useful too.
-
-[Grip](https://github.com/jonaprieto/lean-grip) is an efficient graded
-byte-oriented parser-combinator library; the grade tracks consumption, so
-recursive parsers are structurally terminating instead of `partial`. I did it
-after this friend's project https://github.com/janmasrovira/prim-parser.
+<summary>In the works</summary>
   
+I'm building [OATP](https://github.com/jonaprieto/oatp),
+based on my earlier Haskell project, [online-atps](https://github.com/jonaprieto/oatp). 
+Written in Lean 4, OATP has a REPL and CLI for interacting with automated theorem provers. 
+It parses [TPTP](https://tptp.org), runs local and online provers, and provides reproducible
+artifacts, diagnostics, and more.
+
+Before I could build OATP, I had to develop some tooling. You might find it useful too.
+
+[Grip](https://github.com/jonaprieto/lean-grip) is an efficient, graded, byte-oriented
+parser-combinator library inspired by my friend's project,
+[prim-parser](https://github.com/janmasrovira/prim-parser). 
+The grade tracks input consumption, allowing recursive parsers to be structurally
+terminating rather than marked `partial`.
+
 Using Grip, I can parse
 [TPTP](https://tptp.org) in
 [grip-tptp](https://github.com/jonaprieto/lean-grip-tptp), and JSON in
