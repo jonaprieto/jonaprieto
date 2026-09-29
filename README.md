@@ -13,6 +13,9 @@ For AI-driven web apps, I use Elixir and [Phoenix](https://www.phoenixframework.
 Phoenix is a big reason I switched from Python to Elixir for building apps.
 There's also [PaperShelf](https://github.com/jonaprieto/papershelf), the macOS PDF
 reader and library manager I wish I'd had years ago.
+And [zkit](https://github.com/jonaprieto/zkit), the zsh `ls` I use every day:
+numbered entries with cached folder sizes, how long ago they changed, and git status,
+so `rm 3` or `update --all` act on what I just saw.
 
 
 <details>
