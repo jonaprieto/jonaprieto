@@ -12,29 +12,14 @@ In my spare time, I'm learning [Lean](https://lean-lang.org/) and using
 For AI-driven web apps, I use Elixir and [Phoenix](https://www.phoenixframework.org/).
 Phoenix is a big reason I switched from Python to Elixir for building apps.
 
-I also build the Mac tools I use every day.
-[PaperShelf](https://github.com/jonaprieto/papershelf) is the macOS PDF reader and
-library manager I wish I'd had years ago: search, highlight, cite and file papers, with
-a local MCP server so an assistant can read them without the files leaving the Mac.
-Papers get there through [folio](https://github.com/jonaprieto/folio), which finds a
-book or paper from the terminal (or for an agent) and saves it as
-`year-author-title.pdf`, open-access papers straight from their publisher by DOI or
-arXiv id.
-[tess](https://github.com/jonaprieto/tess) is a keyboard-first tiling window manager
-that never hides a window. Each screen is a row of columns and there are no virtual
-workspaces, so a crash or an unplugged screen can't strand a window off-screen.
-My notes live in [EdgeMark](https://github.com/jonaprieto/EdgeMark), my fork of
-[Ender-Wang's](https://github.com/Ender-Wang/EdgeMark) side-panel Markdown app: it
-syncs the notes and my gists with GitHub, holds back secrets before a push, and
-connects to Claude Code like an IDE.
-And [zkit](https://github.com/jonaprieto/zkit), the zsh `ls` I use every day:
-numbered entries with cached folder sizes, how long ago they changed, and git status,
-so `rm 3` or `update --all` act on what I just saw.
+Things I built for my own Mac:
 
-I type all of it on a NuPhy Air96 V2 running
-[my Vial keymap](https://github.com/jonaprieto/nuphy-air96): home-row mods, arrows
-under Space, a math layer that types Greek and logic symbols (or their LaTeX), keys
-that light up by layer, and a menu bar app with a live keymap page and typing metrics.
+- [PaperShelf](https://github.com/jonaprieto/papershelf), the PDF reader and library manager I wish I'd had years ago.
+- [folio](https://github.com/jonaprieto/folio), finds and downloads a book or paper from the terminal.
+- [tess](https://github.com/jonaprieto/tess), a keyboard-first tiling window manager.
+- [EdgeMark](https://github.com/jonaprieto/EdgeMark), my fork of [Ender-Wang's](https://github.com/Ender-Wang/EdgeMark) side-panel notes app, synced to GitHub.
+- [nuphy-air96](https://github.com/jonaprieto/nuphy-air96), the keymap and a menu bar app for my NuPhy Air96 keyboard.
+- [zkit](https://github.com/jonaprieto/zkit), a numbered `ls`, so `rm 3` removes what I just saw.
 
 
 <details>
