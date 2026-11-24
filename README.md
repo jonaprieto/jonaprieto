@@ -20,7 +20,7 @@ Phoenix is a big reason I switched from Python to Elixir for building apps.
 My Mac, mostly rebuilt to my taste:
 
 - [Ghostty](https://github.com/jonaprieto/ghostty), my fork of [Ghostty](https://github.com/ghostty-org/ghostty), as a dropdown terminal with tabs, a menu bar icon and tmux in every tab. Clicked folders open in a split, source files in Zed.
-- [Zed](https://zed.dev/) is my editor. I work on [zed-lean4](https://github.com/jonaprieto/zed-lean4), my fork of [reuixiy7's](https://github.com/reuixiy7/zed-lean4) Lean 4 extension, with an infoview in a terminal beside the code, and on zed-wkey, a which-key for Zed's vim mode.
+- [Zed](https://zed.dev/) is my editor. I work on [zed-lean4](https://github.com/jonaprieto/zed-lean4), my fork of [reuixiy7's](https://github.com/reuixiy7/zed-lean4) Lean 4 extension, with an infoview in a terminal beside the code, and on [zed-wkey](https://github.com/jonaprieto/zed-wkey), a which-key for Zed's vim mode.
 - [Strata](https://github.com/jonaprieto/strata-files), my fork of [cristipufu's](https://github.com/cristipufu/strata-files) file manager, which replaces Finder for me. I added Magit-style git with a commit graph, a history panel, a terminal drawer and Dired keys.
 - [Tesela](https://github.com/jonaprieto/tesela), a keyboard-first tiling window manager that replaces Alfred, Magnet and Spotlight for me, among others. A letter on every window, and one fuzzy picker for windows, tabs, apps and files.
 - [PureMac](https://github.com/jonaprieto/PureMac), my fork of [momenbasel's](https://github.com/momenbasel/PureMac) Mac cleaner, with Free Up and Clean in the menu bar and Move to Trash in Space Explorer.
